@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+			
+			body{
+				margin: 0;
+				padding: 0;
+			}
+			#container>div {
+				height: 100px;
+				text-align: center;
+				color: white;
+			}
+			#container{
+				position: relative;
+			}
+
+			#header {
+				background-color: red;
+			}
+
+			#navigation {
+				background-color: pink;
+				position: absolute;
+				top: 100px;
+				height: 30px !important;
+				width: 100%;
+				overflow: hidden;
+			}
+
+			#content {
+				background-color: blue;
+				margin-top: 30px;
+			}
+
+			#extra {
+				background-color: green;
+				
+			}
+
+			#footer {
+				background-color: cyan;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="container">
+			<div id="header">页眉区域</div>
+			<div id="content">主体内容区域</div>
+			<div id="navigation">导航栏</div>
+			<div id="extra">其他栏目</div>
+			<div id="footer">页脚区域</div>
+		</div>
+	</body>
+</html>

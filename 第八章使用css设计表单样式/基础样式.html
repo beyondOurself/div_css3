@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<form action="#" method="post" name="from1"  id="form1" >
+			<input maxlength="10" size="10" value="加粗" name="bold" id="bold" ><br>
+			<input type="password" maxlength="12" size="8" name="blue" id="blue"></input><br>
+			<select size="1" name="select">
+				<option value ="2" selected>sina.com</option>
+				<option value ="1">sohu.com</option>
+			</select><br>
+			<textarea name="textarea" rows="5" cols="30" align="right">下划线样式</textarea><br>
+			<input type="submit" name="submit" id="submit" value="提交" />
+			<input type="reset" name="reset"  value="清除" />
+		</form>
+	</body>
+	<style>
+		#form1 #bold {
+			font-weight: bold;
+			font-size: 14px;
+			font-family: "宋体";
+		}
+		#form1 #blue {
+			font-size: 14px;
+			color: #0000FF;
+		}
+		#form1 select{
+			font-size: 13px;
+			color: white;
+			font-family: verdana,arial;
+			background-color: red;
+		}
+		#form1 select option{
+			background-color: green;
+		}
+		#form1 textarea{
+			font-size: 14px;
+			color: #000099;
+			font-family: verdana,arial;
+		}
+		#form1 #submit{
+			font-size: 16px;
+			color: green;
+			font-family: "方正姚体";
+		}
+		
+		#form1{
+			background-color: #CCCCCC;
+		}
+		
+	</style>
+</html>

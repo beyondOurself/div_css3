@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<form id="form1" name="form1" action="" method="post">
+			<fieldset id="">
+				<legend>表单结构</legend>
+				<p>
+					<label for="textfield" class="title">文本框</label>
+					<input type="text" name="textfield" id="textfield" value="" />
+				</p>
+				<p>
+					<label for="textarea" class="title">文本区域</label>
+					<textarea name="textarea" id="textarea" cols="45" rows="5" /></textarea>
+				</p>
+				<p>复选框
+					<label for="checkbox" class="title">a</label>
+					<input type="checkbox" name="checkbox" id="checkbox" value="" />
+					<label for="checkbox2" class="title">b</label>
+					<input type="checkbox" name="checkbox2" id="checkbox2" value="" />
+					<label for="checkbox3" class="title">c</label>
+					<input type="checkbox" name="checkbox3" id="checkbox3" value="" />
+				</p>
+				<p>单选框按钮:
+					<label for="radio1" class="title">a</label>
+					<input type="radio" name="radio1" id="radio1" value="radio1">
+					<label for="radio2" class="title">b</label>
+					<input type="radio" name="radio2" id="radio2" value="radio2">
+					<label for="radio3" class="title">c</label>
+					<input type="radio" name="radio3" id="radio3" value="radio3">
+				</p>
+				<p>
+					<label for="select" class="title">下载菜单:</label><select name="select" id="select">
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+					</select>
+				</p>
+				<p class="center">
+					<input type="submit" name="button" id="button" value="提交" />
+					<input type="reset" name="button2" id="button2" value="重置" />
+				</p>
+
+			</fieldset>
+		</form>
+		<style>
+			#form1{
+				text-align: center;
+			}
+			.center{
+				text-align: center;
+			}
+			#textarea{
+				/* 使用em为单位可以控制一次可以输入多少个字符 */
+				width: 10em;
+			}
+		</style>
+	</body>
+</html>

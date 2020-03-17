@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+			body {
+				margin: 0;
+				padding: 0;
+				border: 0;
+				overflow: hidden;
+				height: 100%;
+				max-height: 100%;
+				font: 85%/160% verdana, arial, helvetica, sans-serif;
+				color: #333333;
+			}
+
+			#banner {
+				/* 顶部框架样式 */
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 160px;
+				overflow: hidden;
+				background: pink url() repeat-x 0% 0%;
+			}
+			#maincontent{ /* 底部框架样式 */
+				position: fixed;
+				top: 160px;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				overflow: auto;
+			}
+			.maintext{
+				font-size: 0.85em;
+				margin: 15px;
+			}
+			#bannertext{
+				margin:  20px 10px 0 80px;
+			}
+			#bannertext h1{
+				display: none;
+			}
+			#bannertext h2{
+				float: right;
+				font-size: 16px;
+				margin: 60px 80px 0 0;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="banner">
+			<!-- 顶部框架 -->
+			<div id="bannertext">
+				<h1></h1>
+				<h2></h2>
+			</div>
+			<div id="tabs">
+				<ul>
+					<li>导航菜单</li>
+				</ul>
+			</div>
+			<div id="tabsline">&nbsp;</div>
+		</div>
+		<div id="maincontent">
+			<div class="maintext">
+				<!-- 底部框架 -->
+			</div>
+		</div>
+	</body>
+</html>

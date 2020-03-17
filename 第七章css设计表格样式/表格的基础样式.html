@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>表格样式</title>
+		<style type="text/css">
+			table {
+
+				background-color: #00ccff;
+				color: #FF0000;
+
+				border: red solid 2px;
+				/* border-collapse: collapse;   边框合并*/
+				/* 设置单元格的边距 不能使用margin来设置 */
+				border-spacing: 5px 10px;
+				/* 隐藏空单元格  hide||show */
+				empty-cells: hide;
+			}
+
+			th,
+			td {
+				border: blue solid 1px;
+				padding: 5px 10px;
+			}
+
+			caption {
+				/*设置表格的标题*/
+				padding: 6px;
+				font-size: 24px;
+				color: red;
+				/* 标题设置在表格的下方 */
+				caption-side: bottom;
+
+			}
+		</style>
+	</head>
+	<body>
+		<table border="" cellspacing="" cellpadding="">
+			<caption>表格标签</caption>
+			<thead>
+				<tr>
+					<th>Header</th>
+					<th>Header</th>
+					<th>Header</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Data</td>
+					<td>Data</td>
+					<td></td>
+				</tr>
+			</tbody>
+		</table>
+	</body>
+</html>
